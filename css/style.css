@@ -66,6 +66,11 @@ button{
 
 
 /* DEBUG:  */
+#ticketcontainer{
+  display:none;
+}
+
+
 #ticket *{
 text-align: left;
 }
