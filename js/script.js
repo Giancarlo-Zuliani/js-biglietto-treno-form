@@ -20,7 +20,7 @@ GENERA.addEventListener('click' , function(){
   if (userName.value != ""  &&  distance.value != "" ){
     let ticketCost = distance.value * PRICEPERKM;
     let age = document.querySelector('input[name="eta"]:checked').value;
-
+    //APPLY DISCOUNT
     if (age === "minorenne"){
       ticketCost = (ticketCost / 100 ) * 80;
     }else if (age === "over 65"){
