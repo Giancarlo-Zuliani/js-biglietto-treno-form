@@ -72,15 +72,35 @@ button{
   border-radius: 5px;
   margin:20px;
   font-size: 1.1rem;
+  transition:transform linear .5s;
 }
 
+button:hover{
+  transform:scale(1.4);
+  background-color: #ae0048;
+  color:black;
+  cursor:pointer;
+}
 
+#buy{
+  font-size: 1.4rem;
+  color:white;
+  padding-top:50px;
+}
 
-/* DEBUG:  */
 #ticketcontainer{
   display:none;
+  transition: all linear .2s;
 }
 
+#ticket:hover{
+  transform: scale(1.1);
+  cursor:pointer;
+}
+
+#ticket:hover #buy{
+  display: block;
+}
 
 #ticket *{
 text-align: left;
@@ -123,7 +143,7 @@ text-align: left;
   color:#000;
   display:flex;
   justify-content: space-around;
-  width:70%;
+  width:80%;
 }
 
 .travelbox , #userdata{
@@ -133,4 +153,10 @@ text-align: left;
   flex-direction: column;
   justify-content: space-between;
   min-height:150px;
+}
+
+#ticketname{
+  font-size: 1.1rem;
+  padding:25px;
+  padding-left: 5px;
 }

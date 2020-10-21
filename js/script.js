@@ -22,7 +22,7 @@ GENERA.addEventListener('click' , function(){
     }
 
     let seatNum = Math.floor(Math.random() * 999);
-    let codeCp = 100000 + Math.floor(Math.random() * 900000 )
+    let codeCp = 100000 + Math.floor(Math.random() * 900000);
 
     document.getElementById('ticketname').innerHTML = userName.value;
     document.getElementById('discount').innerHTML = age;
