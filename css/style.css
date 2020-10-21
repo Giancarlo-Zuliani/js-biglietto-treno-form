@@ -47,6 +47,16 @@ h2{
   bottom:25%;
 }
 
+.userinput > input:focus {
+  background-color: #ae0048;
+  color:#fff;
+}
+
+.userinput input:last-child{
+  appearance:none;
+  -moz-appearance:textfield;
+}
+
 .radioinput div{
   text-align: left;
   margin-left: 25%;
@@ -63,6 +73,7 @@ button{
   margin:20px;
   font-size: 1.1rem;
 }
+
 
 
 /* DEBUG:  */
@@ -114,7 +125,6 @@ text-align: left;
   justify-content: space-around;
   width:70%;
 }
-
 
 .travelbox , #userdata{
   display:flex;

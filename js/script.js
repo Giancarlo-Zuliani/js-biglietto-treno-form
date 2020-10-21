@@ -3,8 +3,12 @@ const GENERA = document.querySelector('#genera');
 
 const PRICEPERKM = 0.21;
 
+const RESET = document.querySelector('#reset');
+
+
 var userName = document.querySelector('input[name="name"]');
 var distance = document.querySelector('input[name="km"]');
+
 
 GENERA.addEventListener('click' , function(){
   if (userName.value != ""  &&  distance.value != "" ){
@@ -29,4 +33,9 @@ GENERA.addEventListener('click' , function(){
     userName.value ="";
     distance.value="";
   }
+})
+
+
+RESET.addEventListener('click',function(){
+  document.getElementById('ticketcontainer').style.display ="none";
 })
