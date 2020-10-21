@@ -11,7 +11,7 @@
     <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
 
 
-    <section id="console">
+    <form id="console">
 
       <div class="userinput">
         <label for="name">Nome e Cognome</label>
@@ -26,26 +26,26 @@
       <div class="userinput radioinput">
         <label for="age">Fascia d 'età </label>
         <div class="">
-          <input type="radio" name="eta" value="">
+          <input type="radio" name="eta" value="minor">
           <span>minorenne</span>
         </div>
         <div class="">
-          <input type="radio" name="eta" value="">
+          <input type="radio" name="eta" value="regular">
           <span>maggiorenne</span>
         </div>
         <div class="">
-          <input type="radio" name="eta" value="">
+          <input type="radio" name="eta" value="over">
         <span>over 65</span>
       </div>
 
       </div>
 
       <div class="commands">
-        <button type="button" name="button">Genera</button>
+        <button id="genera" type="button" name="button">Genera</button>
         <button type="button" name="button">Annulla</button>
       </div>
 
-    </section>
+    </form>
 
 
     <section id="ticket">
