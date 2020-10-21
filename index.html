@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" href="css/style.css">
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
     <title>Trenitalia</title>
   </head>
   <body>
@@ -22,15 +23,26 @@
         <input type="number" name="km"  placeholder="KM da percorrere" value="">
       </div>
 
-      <div class="userinput">
+      <div class="userinput radioinput">
         <label for="age">Fascia d 'età </label>
-        <input type="radio" name="eta" value="">
-        <input type="radio" name="eta" value="">
+        <div class="">
+          <input type="radio" name="eta" value="">
+          <span>minorenne</span>
+        </div>
+        <div class="">
+          <input type="radio" name="eta" value="">
+          <span>maggiorenne</span>
+        </div>
+        <div class="">
+          <input type="radio" name="eta" value="">
+        <span>over 65</span>
+      </div>
+
       </div>
 
       <div class="commands">
-        <button type="button" name="button"></button>
-        <button type="button" name="button"></button>
+        <button type="button" name="button">Genera</button>
+        <button type="button" name="button">Annulla</button>
       </div>
 
     </section>
