@@ -10,6 +10,7 @@
 
     <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
 
+    <!-- main console -->
 
     <form id="console">
 
@@ -20,24 +21,23 @@
 
       <div class="userinput">
         <label for="km">Km da percorrere</label>
-        <input type="number" name="km"  placeholder="KM da percorrere" value="">
+        <input type="number" name="km" placeholder="KM da percorrere" value="">
       </div>
 
       <div class="userinput radioinput">
-        <label for="age">Fascia d 'età </label>
-        <div class="">
+        <label for="age">Fascia d 'età</label>
+        <div>
           <input type="radio" name="eta" value="minorenne">
           <span>minorenne</span>
         </div>
-        <div class="">
+        <div>
           <input type="radio" name="eta" value="nessuna">
           <span>maggiorenne</span>
         </div>
-        <div class="">
+        <div>
           <input type="radio" name="eta" value="over 65">
-        <span>over 65</span>
-      </div>
-
+         <span>over 65</span>
+       </div>
       </div>
 
       <div class="commands">
@@ -46,6 +46,8 @@
       </div>
 
     </form>
+
+    <!-- ticket container -->
 
     <div id="ticketcontainer">
 
@@ -84,16 +86,14 @@
 
         </div>
 
-
-
       </section>
 
       <h5 id="buy">Click per acquistare</h5>
 
-  </div>
+    </div>
 
-
+    <!-- link to script -->
 
     <script src="js/script.js" charset="utf-8"></script>
-  </body>
+  </body> 
 </html>
