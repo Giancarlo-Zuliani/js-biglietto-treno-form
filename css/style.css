@@ -63,3 +63,59 @@ button{
   margin:20px;
   font-size: 1.1rem;
 }
+
+
+/* DEBUG:  */
+#ticket *{
+text-align: left;
+}
+
+
+
+#ticket{
+  display: flex;
+  align-items: center;
+  width:80%;
+  margin:auto;
+  background-color: #fff;
+  border-radius: 15px;
+  flex-wrap: wrap;
+  padding:20px 50px ;
+  color:#ae0048;
+}
+
+#userdata{
+  color:#000;
+  background-color: #767676;
+  width:20%;
+}
+
+#userdata h4{
+  text-align: left;
+  padding:5px;
+}
+
+
+#ticket > h4{
+  width:100%;
+  color:#000;
+  text-align:left;
+  padding:5px 5px 5px 0;
+}
+
+.traveldata{
+  color:#000;
+  display:flex;
+  justify-content: space-around;
+  width:70%;
+}
+
+
+.travelbox , #userdata{
+  display:flex;
+  width:20%;
+  text-align: left;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height:150px;
+}
